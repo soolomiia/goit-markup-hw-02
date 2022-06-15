@@ -1,0 +1,211 @@
+:root {
+    --primary-background-color: #ffffff;
+    --secondary-background-color: #f5f4fa;
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent: #2196f3;
+    --button-hover: #188ce8;
+    --logo-color: #000000;
+    --invert-text-color: #ffffff;
+    --third-text-color: rgba(255, 255, 255, 0.6);
+    --third-background-color: #2f303a;
+  }
+body{
+    background-color: #E5E5E5;
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
+.page-header{
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+.logo-link{
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logo-studio{
+    color: black;
+}
+a {
+    color: #757575;
+}
+a:hover {
+    color: #2196F3;
+}
+.main-page {
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+}
+h1 {
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.support {
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px ;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.studio-facts {
+    position: absolute;
+    width: 1170px;
+    height: 101px;
+    left: 215px;
+    top: 774px;
+}
+.title {
+
+}
+h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.doing {
+    position: absolute;
+    width: 1170px;
+    height: 386px;
+    left: 215px;
+    top: 969px;
+}
+.we-doing{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.images-comp{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 615px;
+    top: 1061px;
+}
+.our-team{
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+    background: #F5F4FA;
+}
+.command {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.command-card{
+    width: 270px;
+    height: 368px;
+    left: 1115px;
+    top: 1635px;
+    background: var(--primary-background-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.command-card .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  
+.command-card .text {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  footer{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+  }
+
+
+.button-portfolio{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    background: #F5F4FA;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--accent);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--invert-text-color);
+}
+.portfolio-card {
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+  
+    border: 1px solid #eeeeee;
+  }
+  
+  .portfolio-card .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+  }
+  .portfolio-card .text {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+  }
