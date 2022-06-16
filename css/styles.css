@@ -11,27 +11,15 @@
     --third-background-color: #2f303a;
   }
 body{
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
     font-family: 'Roboto' sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: 0.02em;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 .page-header{
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
     background: #FFFFFF;
 }
 .logo-link{
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -50,19 +38,9 @@ a:hover {
     color: #2196F3;
 }
 .main-page {
-    position: absolute;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
     background: #2F303A;
 }
 h1 {
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -82,11 +60,6 @@ h1 {
     cursor: pointer;
 }
 .studio-facts {
-    position: absolute;
-    width: 1170px;
-    height: 101px;
-    left: 215px;
-    top: 774px;
 }
 .title {
 
@@ -107,11 +80,7 @@ p{
     color: #757575;
 }
 .doing {
-    position: absolute;
-    width: 1170px;
-    height: 386px;
-    left: 215px;
-    top: 969px;
+    
 }
 .we-doing{
     font-size: 36px;
@@ -121,18 +90,9 @@ p{
     color: #212121;
 }
 .images-comp{
-    position: absolute;
-    width: 370px;
-    height: 294px;
-    left: 615px;
-    top: 1061px;
+    
 }
 .our-team{
-    position: absolute;
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
     background: #F5F4FA;
 }
 .command {
@@ -142,10 +102,6 @@ p{
     letter-spacing: 0.03em;
 }
 .command-card{
-    width: 270px;
-    height: 368px;
-    left: 1115px;
-    top: 1635px;
     background: var(--primary-background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -166,11 +122,6 @@ p{
     letter-spacing: 0.03em;
   }
   footer{
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2097px;
     background: #2F303A;
   }
 
@@ -188,11 +139,7 @@ p{
   color: var(--invert-text-color);
 }
 .portfolio-card {
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 262px;
-  
+    
     border: 1px solid #eeeeee;
   }
   
