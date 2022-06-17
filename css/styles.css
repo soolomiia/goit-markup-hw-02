@@ -11,13 +11,19 @@
     --third-background-color: #2f303a;
   }
 body{
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 1);
     font-family: 'Roboto' sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
 }
+.list{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
 .page-header{
-    background: #FFFFFF;
+    background: rgba(255, 255, 255, 1);
 }
 .visually-hidden {
     position: absolute;
@@ -39,13 +45,18 @@ body{
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: rgba(33, 150, 243, 1);
 }
 .logo-studio{
-    color: black;
+    color: rgba(33, 33, 33, 1)
 }
 a {
+  text-decoration: none;
     color: #757575;
+    Font size: 14px;
+    Line height: 16px;
+    Letter spacing: 2%;
+
 }
 a:hover {
     color: #2196F3;
@@ -60,7 +71,7 @@ h1 {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 1);
 }
 .support {
     background-color: #2196F3;
