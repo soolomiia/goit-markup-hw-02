@@ -52,13 +52,17 @@ body{
 .item-nav{
   list-style: none;
 }
-.link-header {
-    text-decoration: none;
-    color: rgba(33, 33, 33, 1);
-    Line height: 0.875;
-    Letter spacing: 2%;
+.list-nav .current {
+  color: rgba(33, 150, 243, 1);
 }
-.link-header:hover{
+.link-header {
+color: rgba(33, 33, 33, 1);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.link-header:hover, 
+.link-header:focus {
   color: rgba(33, 150, 243, 1);
 }
 .list-contact{
@@ -68,11 +72,12 @@ body{
   list-style: none;
 }
 .link-contact{
-  Font style: Medium;
-  Letter-spacing: 2%;
-  color: rgba(117, 117, 117, 1);
+  color:  rgba(117, 117, 117, 1);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.link-contact:hover{
+.link-contact:hover,
+.link-contact:focus {
   color: rgba(33, 150, 243, 1);
 }
 .main-page {
@@ -166,9 +171,13 @@ body{
     Line height: 146%;
     color:  rgba(255, 255, 255, 1);
   }
-  .footer-link:hover{
-    color: rgba(33, 150, 243, 1);
+  .footer-link:hover,
+  .footer-link:focus{
+    color: var(--accent);
   }
+.addreses{
+  color: var(--invert-text-color);
+}
 .button-list{
   text-decoration: none;
 }
