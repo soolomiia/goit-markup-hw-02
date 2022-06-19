@@ -166,13 +166,8 @@ body{
   }
   .footer-link{
     text-decoration: none;
-    Line height: 1.7;
-    Line height: 146%;
+    line-height: 1.7;
     color:  #FFFFFF;
-  }
-  .footer-link:hover,
-  .footer-link:focus{
-    color: var(--accent);
   }
 .addreses{
   color: var(--invert-text-color);
@@ -186,10 +181,9 @@ body{
 .button-portfolio{
     background: #F5F4FA;
     color: #212121;
-    Font size: 16px;
-    Line height: 1.63;
-    Line height: 139%;
-    Align: Center; 
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center; 
     cursor: pointer;
 }
 .button-portfolio:hover{
@@ -207,7 +201,6 @@ body{
     letter-spacing: 0.06em;
   }
 .service-text{
-  font-style: regular;
   color: #757575;
   font-size: 16px;
   line-height: 1.9;
