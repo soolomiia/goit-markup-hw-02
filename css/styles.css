@@ -181,7 +181,7 @@ body{
 }
 .button-portfolio{
     background: var(--primary-background-color);
-    color: -;
+    color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.63;
     text-align: center; 
@@ -194,7 +194,8 @@ body{
 .button-portfolio:hover,
 .button-portfolio:focus
 {
-    color: var(--accent);
+    background-color: var(--accent);
+    color: var(--invert-text-color);
 }
 .service{
   text-decoration: none;
