@@ -11,14 +11,11 @@
     --third-background-color: #2f303a;
   }
 body{
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #FFFFFF(255, 255, 255, 1);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     Line height: 1.2;
     letter-spacing: 0.03em;
-}
-.page-header{
-    background: rgba(255, 255, 255, 1);
 }
 .visually-hidden {
     position: absolute;
@@ -40,11 +37,11 @@ body{
     font-size: 26px;
     line-height: 0.839;
     letter-spacing: 0.03em;
-    color: rgba(33, 150, 243, 1);
+    color: #2196F3;
     text-decoration: none;
 }
 .logo-studio{
-    color: rgba(33, 33, 33, 1)
+    color: #212121;
 }
 .list-nav{
   text-decoration: none;
@@ -52,36 +49,36 @@ body{
 .item-nav{
   list-style: none;
 }
-.list-nav .current {
-  color: rgba(33, 150, 243, 1);
+.item-nav .current {
+  color: #2196F3;
 }
 .link-header {
-color: rgba(33, 33, 33, 1);
+  text-decoration: none;
+  color: #212121;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .link-header:hover, 
 .link-header:focus {
-  color: rgba(33, 150, 243, 1);
-}
-.list-contact{
-  text-decoration: none;
+  color: #2196F3;
 }
 .item-contact{
   list-style: none;
 }
 .link-contact{
-  color:  rgba(117, 117, 117, 1);
+  color:  #757575;
   line-height: 1.5;
+  font-weight: 500;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .link-contact:hover,
 .link-contact:focus {
-  color: rgba(33, 150, 243, 1);
+  color: #2196F3;
 }
 .main-page {
-    background: rgba(47, 48, 58, 1);
+    background: #2F303A;
 }
 .main-title {
     font-weight: 900;
@@ -90,7 +87,7 @@ color: rgba(33, 33, 33, 1);
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
+    color: #FFFFFF;
 }
 .support {
     background-color: #2196F3;
@@ -99,7 +96,7 @@ color: rgba(33, 33, 33, 1);
     padding: 10px 32px ;
     font-size: 16px;
     line-height: 1.9;
-    color: rgba(255, 255, 255, 1);
+    color: #FFFFFF;
     cursor: pointer;
 }
 .facts-list {
@@ -112,18 +109,17 @@ color: rgba(33, 33, 33, 1);
     font-weight: 700;
     line-height: 1.1;
     text-transform: uppercase;
-    color: rgba(33, 33, 33, 1);
+    color: #212121;
 }
 .facts-text{
-    font-weight: 400;
     line-height: 1.7;
-    color: rgba(117, 117, 117, 1);
+    color: #757575;
 }
 .section-title{
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  color: rgba(33, 33, 33, 1)#212121;
+  color:#212121;
 }
 .list-presentation{
   text-decoration: none;
@@ -154,7 +150,10 @@ color: rgba(33, 33, 33, 1);
     text-align: center;
   }
   footer{
-    background: rgba(47, 48, 58, 1);
+    background: #2F303A;
+  }
+  .logo-studio-footer{
+    color: #FFFFFF;
   }
   address{
     font-style: normal;
@@ -169,7 +168,7 @@ color: rgba(33, 33, 33, 1);
     text-decoration: none;
     Line height: 1.7;
     Line height: 146%;
-    color:  rgba(255, 255, 255, 1);
+    color:  #FFFFFF;
   }
   .footer-link:hover,
   .footer-link:focus{
@@ -185,14 +184,16 @@ color: rgba(33, 33, 33, 1);
   list-style: none;
 }
 .button-portfolio{
-    background: rgba(255, 255, 255, 1);
-    color: rgba(33, 33, 33, 1);
-    Font style: Medium;
+    background: #F5F4FA;
+    color: #212121;
     Font size: 16px;
-    Line height: 1.625;
+    Line height: 1.63;
+    Line height: 139%;
+    Align: Center; 
+    cursor: pointer;
 }
 .button-portfolio:hover{
-    color: rgba(33, 150, 243, 1)
+    color: #2196F3;
 }
 .service{
   text-decoration: none;
@@ -207,7 +208,7 @@ color: rgba(33, 33, 33, 1);
   }
 .service-text{
   font-style: regular;
-  color: rgba(117, 117, 117, 1);
+  color: #757575;
   font-size: 16px;
   line-height: 1.9;
 }
