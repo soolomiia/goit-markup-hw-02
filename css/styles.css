@@ -168,7 +168,11 @@ body{
   .footer-link{
     text-decoration: none;
     line-height: 1.7;
-    color:  var(--primary-text-color);
+    color:   rgba(255, 255, 255, 0.6);
+  }
+  .footer-link:hover , 
+  .footer-link:focus {
+    color: var(--accent);
   }
 .addreses{
   color: var(--invert-text-color);
